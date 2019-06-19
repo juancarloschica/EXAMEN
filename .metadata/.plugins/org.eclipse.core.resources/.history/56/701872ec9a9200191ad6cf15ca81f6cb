@@ -1,0 +1,46 @@
+package Clases;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeDAOImplementation implements CompanyDAO{
+	
+	private Connection connection;
+	
+	public EmployeeDAOImplementation() {
+		try {
+			this.connection = ConnectionDB.getConnection();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public List<Employee> getEmployees() {
+		List<Employee> EmployeeList = new ArrayList<>();
+		String sqlAccounting = "SELECT * FROM accounting;";
+		String sqlRRHH = "SELECT * FROM RRHH;";
+
+		
+	}
+
+	@Override
+	public boolean insertEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
+
+}

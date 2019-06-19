@@ -1,0 +1,7 @@
+package Clases;
+
+public class RRHH {
+	
+	private String workday;
+
+}

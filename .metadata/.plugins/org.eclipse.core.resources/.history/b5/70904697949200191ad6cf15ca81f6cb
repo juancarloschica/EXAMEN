@@ -1,0 +1,12 @@
+package Clases;
+
+public class RRHH extends Employee{
+	
+	private int workday;
+	
+	public RRHH(String ein, String firstname, String lastname, double salary, int workday) {
+		super(ein, firstname, lastname, salary);
+		this.workday = workday;
+	}
+
+}

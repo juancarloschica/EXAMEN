@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/juan/Escritorio/ExamenJunioWS/.metadata/.plugins/org.eclipse.jdt.core
+1838232870.index
+3177672645.index
+646308851.index

@@ -1,0 +1,14 @@
+package Clases;
+
+public class Accounting extends Employee {
+	
+	private double complement;
+
+	public Accounting(String EIN, String firstName, String lastName, double salary, double complemento) {
+		super(EIN, firstName, lastName, salary);
+		this.complement = complement;
+	}
+	
+	
+
+}

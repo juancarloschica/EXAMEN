@@ -1,0 +1,13 @@
+package Clases;
+
+import java.util.List;
+
+public class CompanyDAO {
+	
+	private List<Employee> EmployeesList;
+	
+	public void getEmployees() {
+		
+	}
+
+}

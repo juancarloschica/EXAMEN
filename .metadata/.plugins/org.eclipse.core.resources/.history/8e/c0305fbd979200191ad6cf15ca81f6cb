@@ -1,0 +1,29 @@
+package Clases;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class EmployeeDAOImplementation implements CompanyDAO{
+	
+	private Connection connection;
+	
+	public EmployeeDAOImplementation() {
+		try {
+			this.connection = ConnectionDB.getConnection();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	
+
+}

@@ -1,0 +1,12 @@
+package Clases;
+
+import java.util.List;
+
+public interface CompanyDAO {
+	
+	List<Employee> getEmployees();
+	boolean insertAccounting(String ein, String firstname, String lastname, double salary, double complement);
+	boolean insertRRHH(String ein, String firstname, String lastname, double salary, int workday);
+
+
+}

@@ -1,0 +1,9 @@
+package Clases;
+
+import java.util.List;
+
+public class CompanyDAO {
+	
+	List<Employee> EmployeesList;
+
+}

@@ -1,0 +1,10 @@
+package Clases;
+
+import java.util.List;
+
+public interface CompanyDAO {
+	
+	List<Employee> getEmployees();
+	boolean insertEmployee(String ein, String firstname, String lastname, double salary, double complement, int workday);
+
+}
